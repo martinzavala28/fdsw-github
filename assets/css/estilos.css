@@ -14,10 +14,7 @@ body {
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
 }
 
 /* Contacto */
@@ -41,6 +38,14 @@ body {
 
 
 
+/* Estilos generales para todas las versiones */
 .size {
-  font-size: 26px;
+  font-size: 16px; /* Tamaño de fuente predeterminado para todas las versiones */
+}
+
+/* Estilos específicos para la versión de computadora */
+@media only screen and (min-width: 1024px) {
+  .size {
+    font-size: 26px; /* Tamaño de fuente para la versión de computadora */
+  }
 }
